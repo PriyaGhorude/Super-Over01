@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 60vh;
+    padding: 50px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > .row{
+    width: 120%;
+    justify-content: space-evenly;
+}
+
+.name{
+    font-size: x-large;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.score{
+    font-size: xx-large;    
+}
+
+.score > span{
+    margin: 0px 6px;
+}
+
+.runs{
+    font-size: xx-large;
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+#strike-button{
+    background: orangered;
+    color: white;
+    width: 200px;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0px 25px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#strike-button:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 10px;
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}

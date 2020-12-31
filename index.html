@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-Over</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="./asset/CSK.jpg" alt="csk" height="150px" width="200px">
+                <span class="name" id="name1"></span>
+                <div class="row runs" id="team-1-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+            <div>
+                <div class="row score">
+                    <span id="team-1-score"> </span>
+                    <span>-</span>
+                    <span id="team-2-score"> </span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./asset/MI.jpg" alt="mi" height="150px" width="200px">
+                <span class="name" id="name2"></span>
+                <div class="row runs" id="team-2-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="strike-button" onclick="strikeButton()" ></button>
+        </div>
+        <div class="row">
+            <div class="row" id="result" hidden ></div>
+        </div>
+    </div> 
+    <script src="./app.js"></script>
+</body>
+</html>
